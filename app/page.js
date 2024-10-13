@@ -176,7 +176,7 @@ export default function Home() {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
           {/* Calculator 1 - Based on Risk Percentage */}
           <PercentageBasedCalculator
-            title='Percentage-Based'
+            title='Percentage Based'
             accountSize={accountSize1}
             stopLoss={stopLoss1}
             riskPercentage={riskPercentage}
@@ -187,7 +187,7 @@ export default function Home() {
 
           {/* Calculator 2 - Based on Risk Amount */}
           <RiskAmountBasedCalculator
-            title='Risk Amount-Based'
+            title='Risk Amount Based'
             stopLoss={stopLoss2}
             riskAmount={riskAmount}
             setStopLoss={setStopLoss2}
